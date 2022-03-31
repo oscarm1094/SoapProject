@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<bindings xmlns="http://java.sun.com/xml/ns/jaxb" if-exists="true" version="2.1">
+      
+    <!--
+
+Este archivo ha sido generado por la arquitectura JavaTM para la implantación de la referencia de enlace (JAXB) XML v2.3.0 
+Visite <a href="https://javaee.github.io/jaxb-v2/">https://javaee.github.io/jaxb-v2/</a> 
+Todas las modificaciones realizadas en este archivo se perderán si se vuelve a compilar el esquema de origen. 
+Generado el: 2022.03.29 a las 12:52:03 PM ECT 
+
+  -->
+      
+    <bindings xmlns:tns="http://tempuri.org/" if-exists="true" scd="x-schema::tns">
+            
+        <schemaBindings map="false">
+                  
+            <package name="com.oscar.model"/>
+                
+        </schemaBindings>
+            
+        <bindings if-exists="true" scd="tns:Add">
+                  
+            <class ref="com.oscar.model.Add"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:AddResponse">
+                  
+            <class ref="com.oscar.model.AddResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:Subtract">
+                  
+            <class ref="com.oscar.model.Subtract"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:SubtractResponse">
+                  
+            <class ref="com.oscar.model.SubtractResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:Multiply">
+                  
+            <class ref="com.oscar.model.Multiply"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:MultiplyResponse">
+                  
+            <class ref="com.oscar.model.MultiplyResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:Divide">
+                  
+            <class ref="com.oscar.model.Divide"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:DivideResponse">
+                  
+            <class ref="com.oscar.model.DivideResponse"/>
+                
+        </bindings>
+          
+    </bindings>
+    
+</bindings>
